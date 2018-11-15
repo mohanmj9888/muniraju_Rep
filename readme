@@ -1,0 +1,5 @@
+1. This program takes the Array List of inputs in the form of Pin code start and end range which are restricted and normalizes the different ranges into fewer range.
+2. Approach taken here is to sort the user input pin code ranges based on their lower bound so that merging becomes easier.
+3. I take sorted list as input and keep adding the independent range (which doesnt overlap with other ranges) and merging the overlapping ranges into 1 range.
+4. Time complexity of this program is O (N log N) (to sort and merge the results) and a space complexity of O(1) for the space since we are using the same List to merge the
+5. Run UnitTestPinCodeMerge class to run the program by hardcoding the ranges in the program and run MergeRestrictedPinRange to accept the range as user input.
